@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20220816200234",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "dv_user",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DVUser",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

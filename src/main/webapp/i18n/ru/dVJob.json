@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "dVJob": {
+      "home": {
+        "title": "DV Jobs",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый DV Job",
+        "createOrEditLabel": "Создать или отредактировать DV Job",
+        "notFound": "DV Jobs не найдено"
+      },
+      "created": "Новый DV Job создан с идентификатором {{ param }}",
+      "updated": "DV Job обновлен с идентификатором {{ param }}",
+      "deleted": "DV Job удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить DV Job {{ id }}?"
+      },
+      "detail": {
+        "title": "DV Job"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "createTime": "Create Time",
+      "isError": "Is Error",
+      "isSuccess": "Is Success",
+      "operationSystem": "Operation System",
+      "browser": "Browser",
+      "task": "Task"
+    }
+  }
+}

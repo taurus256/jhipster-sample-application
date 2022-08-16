@@ -1,0 +1,10 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "OS": {
+      "null": "",
+      "MAC": "MAC",
+      "LINUX": "LINUX",
+      "WINDOWS": "WINDOWS"
+    }
+  }
+}

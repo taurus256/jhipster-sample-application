@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "dVUser": {
+      "home": {
+        "title": "DV Users",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый DV User",
+        "createOrEditLabel": "Создать или отредактировать DV User",
+        "notFound": "DV Users не найдено"
+      },
+      "created": "Новый DV User создан с идентификатором {{ param }}",
+      "updated": "DV User обновлен с идентификатором {{ param }}",
+      "deleted": "DV User удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить DV User {{ id }}?"
+      },
+      "detail": {
+        "title": "DV User"
+      },
+      "id": "ID",
+      "name": "Name",
+      "email": "Email"
+    }
+  }
+}

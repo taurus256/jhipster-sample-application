@@ -1,0 +1,11 @@
+id;uuid;create_time;is_error;is_success;operation_system;browser
+1;Республика ул.;2022-08-16T08:36:12;false;false;WINDOWS;CHROME
+2;Berkshire Майка Компьютер;2022-08-16T08:22:51;true;false;LINUX;CHROME
+3;СУБД deposit;2022-08-16T14:01:28;true;false;WINDOWS;OPERA
+4;enhance;2022-08-16T19:12:48;false;false;LINUX;FIREFOX
+5;функциональный;2022-08-16T05:14:37;false;true;WINDOWS;FIREFOX
+6;БИОС ул. architectures;2022-08-16T19:48:56;false;false;WINDOWS;IE
+7;action-items synergies Резиновый;2022-08-16T17:05:10;true;true;MAC;OPERA
+8;uniform B2B;2022-08-16T09:24:58;false;false;MAC;OPERA
+9;Auto Ставропольский;2022-08-15T23:31:50;true;false;MAC;IE
+10;Калмыкия payment user-centric;2022-08-15T20:29:25;false;true;LINUX;FIREFOX

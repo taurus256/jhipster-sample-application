@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity DVJob.
+    -->
+    <changeSet id="20220816200236-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="task_id"
+                                 baseTableName="dv_job"
+                                 constraintName="fk_dv_job__task_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="dv_task"/>
+    </changeSet>
+</databaseChangeLog>
