@@ -1,0 +1,57 @@
+
+entity User {
+name String
+email String
+}
+
+entity DVTask{
+uuid String
+user User
+createTime Instant
+retryCounter Integer
+errorDesc String
+operationSystem OS
+browser BROWSER
+resolutionWidth Integer 
+resolutionHeight Integer 
+}
+
+entity DVJob{
+uuid String
+task DVTask
+createTime Instant
+isError Boolean 
+isSuccess Boolean
+operationSystem OS
+browser BROWSER
+}
+
+enum OS {
+MAC, LINUX, WINDOWS
+}
+
+enum BROWSER {
+FIREFOX, OPERA, CHROME, EDGE, SAFARI, IE
+}
+
+relationship ManyToOne{
+	User to DVTask{user}
+}
+
+
+relationship ManyToOne{
+	DVTask to DVJob{task}
+}
+
+// Set pagination options
+paginate DVJob with infinite-scroll
+paginate User, DVTask with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
