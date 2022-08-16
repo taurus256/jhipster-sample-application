@@ -1,0 +1,56 @@
+{
+  "applications": "*",
+  "changelogDate": "20220816200235",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "dv_task",
+  "fields": [
+    {
+      "fieldName": "uuid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "retryCounter",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "errorDesc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operationSystem",
+      "fieldType": "OS",
+      "fieldValues": "MAC,LINUX,WINDOWS"
+    },
+    {
+      "fieldName": "browser",
+      "fieldType": "BROWSER",
+      "fieldValues": "FIREFOX,OPERA,CHROME,EDGE,SAFARI,IE"
+    },
+    {
+      "fieldName": "resolutionWidth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "resolutionHeight",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DVTask",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "dVUser",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

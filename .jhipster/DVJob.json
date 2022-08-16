@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20220816200236",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "dv_job",
+  "fields": [
+    {
+      "fieldName": "uuid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "isError",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isSuccess",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "operationSystem",
+      "fieldType": "OS",
+      "fieldValues": "MAC,LINUX,WINDOWS"
+    },
+    {
+      "fieldName": "browser",
+      "fieldType": "BROWSER",
+      "fieldValues": "FIREFOX,OPERA,CHROME,EDGE,SAFARI,IE"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DVJob",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "dVTask",
+      "relationshipName": "task",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,32 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "dVTask": {
+      "home": {
+        "title": "DV Tasks",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый DV Task",
+        "createOrEditLabel": "Создать или отредактировать DV Task",
+        "notFound": "DV Tasks не найдено"
+      },
+      "created": "Новый DV Task создан с идентификатором {{ param }}",
+      "updated": "DV Task обновлен с идентификатором {{ param }}",
+      "deleted": "DV Task удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить DV Task {{ id }}?"
+      },
+      "detail": {
+        "title": "DV Task"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "createTime": "Create Time",
+      "retryCounter": "Retry Counter",
+      "errorDesc": "Error Desc",
+      "operationSystem": "Operation System",
+      "browser": "Browser",
+      "resolutionWidth": "Resolution Width",
+      "resolutionHeight": "Resolution Height",
+      "user": "User"
+    }
+  }
+}

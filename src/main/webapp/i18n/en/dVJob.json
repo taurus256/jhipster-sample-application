@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "dVJob": {
+      "home": {
+        "title": "DV Jobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new DV Job",
+        "createOrEditLabel": "Create or edit a DV Job",
+        "notFound": "No DV Jobs found"
+      },
+      "created": "A new DV Job is created with identifier {{ param }}",
+      "updated": "A DV Job is updated with identifier {{ param }}",
+      "deleted": "A DV Job is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete DV Job {{ id }}?"
+      },
+      "detail": {
+        "title": "DV Job"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "createTime": "Create Time",
+      "isError": "Is Error",
+      "isSuccess": "Is Success",
+      "operationSystem": "Operation System",
+      "browser": "Browser",
+      "task": "Task"
+    }
+  }
+}
